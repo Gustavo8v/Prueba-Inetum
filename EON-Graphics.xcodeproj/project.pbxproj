@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2546E582AA9F8B300C79DDD4 /* Pods_EON_Graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7585BAEE328F78527CE3246 /* Pods_EON_Graphics.framework */; };
+		723D70A22774F90100F3E105 /* NameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D70972774F90100F3E105 /* NameTableViewCell.swift */; };
+		723D70A32774F90100F3E105 /* SelfieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723D70982774F90100F3E105 /* SelfieTableViewCell.xib */; };
+		723D70A42774F90100F3E105 /* SelfieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D70992774F90100F3E105 /* SelfieTableViewCell.swift */; };
+		723D70A52774F90100F3E105 /* GraficasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D709A2774F90100F3E105 /* GraficasTableViewCell.swift */; };
+		723D70A62774F90100F3E105 /* NameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723D709B2774F90100F3E105 /* NameTableViewCell.xib */; };
+		723D70A72774F90100F3E105 /* GraficasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723D709C2774F90100F3E105 /* GraficasTableViewCell.xib */; };
+		723D70A82774F90100F3E105 /* TablePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D709E2774F90100F3E105 /* TablePresenter.swift */; };
+		723D70A92774F90100F3E105 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D70A02774F90100F3E105 /* TableViewController.swift */; };
+		723D70AA2774F90100F3E105 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723D70A12774F90100F3E105 /* TableViewController.xib */; };
+		723D70AD2774F92500F3E105 /* GraphicsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D70AC2774F92500F3E105 /* GraphicsModel.swift */; };
+		723D70B82774F96500F3E105 /* GraphicsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D70B02774F96500F3E105 /* GraphicsPresenter.swift */; };
+		723D70B92774F96500F3E105 /* GraphicsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723D70B22774F96500F3E105 /* GraphicsViewController.xib */; };
+		723D70BA2774F96500F3E105 /* GraphicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D70B32774F96500F3E105 /* GraphicsViewController.swift */; };
+		723D70BB2774F96500F3E105 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723D70B62774F96500F3E105 /* CameraViewController.xib */; };
+		723D70BC2774F96500F3E105 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D70B72774F96500F3E105 /* CameraViewController.swift */; };
+		723D70BE2775114100F3E105 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 723D70BD2775114100F3E105 /* GoogleService-Info.plist */; };
+		725372902774F43B00297FFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253728F2774F43B00297FFC /* AppDelegate.swift */; };
+		725372922774F43B00297FFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725372912774F43B00297FFC /* SceneDelegate.swift */; };
+		725372992774F43C00297FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725372982774F43C00297FFC /* Assets.xcassets */; };
+		7253729C2774F43C00297FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7253729A2774F43C00297FFC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51946013FE8A5835A28CDD89 /* Pods-EON-Graphics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EON-Graphics.release.xcconfig"; path = "Target Support Files/Pods-EON-Graphics/Pods-EON-Graphics.release.xcconfig"; sourceTree = "<group>"; };
+		723D70972774F90100F3E105 /* NameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameTableViewCell.swift; sourceTree = "<group>"; };
+		723D70982774F90100F3E105 /* SelfieTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelfieTableViewCell.xib; sourceTree = "<group>"; };
+		723D70992774F90100F3E105 /* SelfieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieTableViewCell.swift; sourceTree = "<group>"; };
+		723D709A2774F90100F3E105 /* GraficasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraficasTableViewCell.swift; sourceTree = "<group>"; };
+		723D709B2774F90100F3E105 /* NameTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameTableViewCell.xib; sourceTree = "<group>"; };
+		723D709C2774F90100F3E105 /* GraficasTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GraficasTableViewCell.xib; sourceTree = "<group>"; };
+		723D709E2774F90100F3E105 /* TablePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablePresenter.swift; sourceTree = "<group>"; };
+		723D70A02774F90100F3E105 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		723D70A12774F90100F3E105 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		723D70AC2774F92500F3E105 /* GraphicsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphicsModel.swift; sourceTree = "<group>"; };
+		723D70B02774F96500F3E105 /* GraphicsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphicsPresenter.swift; sourceTree = "<group>"; };
+		723D70B22774F96500F3E105 /* GraphicsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GraphicsViewController.xib; sourceTree = "<group>"; };
+		723D70B32774F96500F3E105 /* GraphicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphicsViewController.swift; sourceTree = "<group>"; };
+		723D70B62774F96500F3E105 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		723D70B72774F96500F3E105 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		723D70BD2775114100F3E105 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7253728C2774F43B00297FFC /* EON-Graphics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EON-Graphics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7253728F2774F43B00297FFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		725372912774F43B00297FFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		725372982774F43C00297FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7253729B2774F43C00297FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7253729D2774F43C00297FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7585BAEE328F78527CE3246 /* Pods_EON_Graphics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EON_Graphics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA62C700C9AE49D76D430FC5 /* Pods-EON-Graphics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EON-Graphics.debug.xcconfig"; path = "Target Support Files/Pods-EON-Graphics/Pods-EON-Graphics.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		725372892774F43B00297FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2546E582AA9F8B300C79DDD4 /* Pods_EON_Graphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59C8DC5E0505B39B36BA87A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA62C700C9AE49D76D430FC5 /* Pods-EON-Graphics.debug.xcconfig */,
+				51946013FE8A5835A28CDD89 /* Pods-EON-Graphics.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		723D70952774F90100F3E105 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				723D70962774F90100F3E105 /* Cells */,
+				723D709D2774F90100F3E105 /* Presenter */,
+				723D709F2774F90100F3E105 /* View */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		723D70962774F90100F3E105 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				723D70972774F90100F3E105 /* NameTableViewCell.swift */,
+				723D70982774F90100F3E105 /* SelfieTableViewCell.xib */,
+				723D70992774F90100F3E105 /* SelfieTableViewCell.swift */,
+				723D709A2774F90100F3E105 /* GraficasTableViewCell.swift */,
+				723D709B2774F90100F3E105 /* NameTableViewCell.xib */,
+				723D709C2774F90100F3E105 /* GraficasTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		723D709D2774F90100F3E105 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				723D709E2774F90100F3E105 /* TablePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		723D709F2774F90100F3E105 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				723D70A02774F90100F3E105 /* TableViewController.swift */,
+				723D70A12774F90100F3E105 /* TableViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		723D70AB2774F92500F3E105 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				723D70AC2774F92500F3E105 /* GraphicsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		723D70AE2774F96500F3E105 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				723D70AF2774F96500F3E105 /* Presenter */,
+				723D70B12774F96500F3E105 /* View */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		723D70AF2774F96500F3E105 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				723D70B02774F96500F3E105 /* GraphicsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		723D70B12774F96500F3E105 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				723D70B22774F96500F3E105 /* GraphicsViewController.xib */,
+				723D70B32774F96500F3E105 /* GraphicsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		723D70B42774F96500F3E105 /* CameraView */ = {
+			isa = PBXGroup;
+			children = (
+				723D70B52774F96500F3E105 /* View */,
+			);
+			path = CameraView;
+			sourceTree = "<group>";
+		};
+		723D70B52774F96500F3E105 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				723D70B62774F96500F3E105 /* CameraViewController.xib */,
+				723D70B72774F96500F3E105 /* CameraViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		725372832774F43B00297FFC = {
+			isa = PBXGroup;
+			children = (
+				7253728E2774F43B00297FFC /* EON-Graphics */,
+				7253728D2774F43B00297FFC /* Products */,
+				59C8DC5E0505B39B36BA87A6 /* Pods */,
+				EAA554FE86208B03660E3BC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7253728D2774F43B00297FFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7253728C2774F43B00297FFC /* EON-Graphics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7253728E2774F43B00297FFC /* EON-Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				723D70B42774F96500F3E105 /* CameraView */,
+				723D70AE2774F96500F3E105 /* Graphics */,
+				723D70AB2774F92500F3E105 /* Models */,
+				723D70952774F90100F3E105 /* Table */,
+				7253728F2774F43B00297FFC /* AppDelegate.swift */,
+				725372912774F43B00297FFC /* SceneDelegate.swift */,
+				725372982774F43C00297FFC /* Assets.xcassets */,
+				7253729A2774F43C00297FFC /* LaunchScreen.storyboard */,
+				723D70BD2775114100F3E105 /* GoogleService-Info.plist */,
+				7253729D2774F43C00297FFC /* Info.plist */,
+			);
+			path = "EON-Graphics";
+			sourceTree = "<group>";
+		};
+		EAA554FE86208B03660E3BC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7585BAEE328F78527CE3246 /* Pods_EON_Graphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7253728B2774F43B00297FFC /* EON-Graphics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725372A02774F43C00297FFC /* Build configuration list for PBXNativeTarget "EON-Graphics" */;
+			buildPhases = (
+				9F13EADCF12281E51B4B4F96 /* [CP] Check Pods Manifest.lock */,
+				725372882774F43B00297FFC /* Sources */,
+				725372892774F43B00297FFC /* Frameworks */,
+				7253728A2774F43B00297FFC /* Resources */,
+				77F99E9B306D42D22F445C74 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EON-Graphics";
+			productName = "EON-Graphics";
+			productReference = 7253728C2774F43B00297FFC /* EON-Graphics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		725372842774F43B00297FFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7253728B2774F43B00297FFC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 725372872774F43B00297FFC /* Build configuration list for PBXProject "EON-Graphics" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 725372832774F43B00297FFC;
+			productRefGroup = 7253728D2774F43B00297FFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7253728B2774F43B00297FFC /* EON-Graphics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7253728A2774F43B00297FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7253729C2774F43C00297FFC /* LaunchScreen.storyboard in Resources */,
+				723D70BB2774F96500F3E105 /* CameraViewController.xib in Resources */,
+				723D70BE2775114100F3E105 /* GoogleService-Info.plist in Resources */,
+				725372992774F43C00297FFC /* Assets.xcassets in Resources */,
+				723D70A62774F90100F3E105 /* NameTableViewCell.xib in Resources */,
+				723D70B92774F96500F3E105 /* GraphicsViewController.xib in Resources */,
+				723D70AA2774F90100F3E105 /* TableViewController.xib in Resources */,
+				723D70A32774F90100F3E105 /* SelfieTableViewCell.xib in Resources */,
+				723D70A72774F90100F3E105 /* GraficasTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77F99E9B306D42D22F445C74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EON-Graphics/Pods-EON-Graphics-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EON-Graphics/Pods-EON-Graphics-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EON-Graphics/Pods-EON-Graphics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F13EADCF12281E51B4B4F96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EON-Graphics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		725372882774F43B00297FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723D70BC2774F96500F3E105 /* CameraViewController.swift in Sources */,
+				723D70AD2774F92500F3E105 /* GraphicsModel.swift in Sources */,
+				723D70A22774F90100F3E105 /* NameTableViewCell.swift in Sources */,
+				723D70A92774F90100F3E105 /* TableViewController.swift in Sources */,
+				723D70A82774F90100F3E105 /* TablePresenter.swift in Sources */,
+				723D70B82774F96500F3E105 /* GraphicsPresenter.swift in Sources */,
+				723D70A52774F90100F3E105 /* GraficasTableViewCell.swift in Sources */,
+				725372902774F43B00297FFC /* AppDelegate.swift in Sources */,
+				725372922774F43B00297FFC /* SceneDelegate.swift in Sources */,
+				723D70A42774F90100F3E105 /* SelfieTableViewCell.swift in Sources */,
+				723D70BA2774F96500F3E105 /* GraphicsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7253729A2774F43C00297FFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7253729B2774F43C00297FFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7253729E2774F43C00297FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7253729F2774F43C00297FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		725372A12774F43C00297FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA62C700C9AE49D76D430FC5 /* Pods-EON-Graphics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TXJ7W24BC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EON-Graphics/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gustavogutierrez.EON-Graphics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		725372A22774F43C00297FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51946013FE8A5835A28CDD89 /* Pods-EON-Graphics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TXJ7W24BC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EON-Graphics/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gustavogutierrez.EON-Graphics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		725372872774F43B00297FFC /* Build configuration list for PBXProject "EON-Graphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7253729E2774F43C00297FFC /* Debug */,
+				7253729F2774F43C00297FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725372A02774F43C00297FFC /* Build configuration list for PBXNativeTarget "EON-Graphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725372A12774F43C00297FFC /* Debug */,
+				725372A22774F43C00297FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 725372842774F43B00297FFC /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_EON_Graphics {
+  umbrella header "Pods-EON-Graphics-umbrella.h"
+
+  export *
+  module * { export * }
+}

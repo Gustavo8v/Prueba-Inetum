@@ -1,0 +1,24 @@
+6.- se divide en 5 funciones principales 
+
+viewDidLoad()
+se llama cuando la vista se crea
+
+viewWillAppear(_ animated: Bool)
+Se llama cada vez que aparece la vista en la pantalla
+
+viewDidAppear(_ animated: Bool)
+se dispara después de que la vista se presente en la pantalla
+
+viewWillDisappear(_ animated: Bool)
+se activa cuando la vista está a punto de desaparecer
+
+viewDidDisappear(_ animated: Bool)
+este evento se dispara justo después de que la vista haya desaparecido
+
+8.- week cuando se quiere crear una referencia débil, storing cuando se quiere dejar veteado ese espacio en memoria y unowned cuando se quiere asegurar el valor de la referencia
+
+9.- la manera en la swift gestiona la memoria, funciona como un contador de referencias, al llegar la instancias a cero elimina las referencias
+
+Punto Extra
+
+El color del View queda en rojo, ya que la ultima función en llamarse (en este caso) es el viewDidLoad
